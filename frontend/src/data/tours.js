@@ -197,7 +197,7 @@ const tourList = [
       title: "Cervejaria Farol",
       location: "Gramado",
       link: "https://parksnet.com.br/ingressos/?ingToken=cervejariafarol&bookingAgency=626",
-      photo: "/tour-images/cervejarafarol.jpeg",
+      photo: "/tour-images/cervejariafarol.jpeg",
       featured: true,
   },
   {

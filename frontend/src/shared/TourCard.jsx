@@ -41,7 +41,7 @@ const TourCard = ({ tour }) => {
             </h5> */}
             <button className="btn booking__btn">
               <a href={link} target="_blank" rel="noopener noreferrer">
-                Book Now
+                Agende Agora
               </a>
             </button>
           </div>

@@ -41,7 +41,7 @@
   margin-top: 1rem;
   padding: 0.5rem 1rem;
   background-color: #F26C28;
-  color: white;
+  color: white !important;   /* <- aqui */
   border-radius: 5px;
   text-decoration: none;
   font-weight: 500;

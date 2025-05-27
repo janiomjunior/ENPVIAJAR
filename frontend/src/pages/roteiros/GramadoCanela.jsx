@@ -1,6 +1,6 @@
 // src/pages/roteiros/GramadoCanela.jsx
 import React from 'react';
-import '../styles/Roteiros.css';
+import '../../styles/Roteiros.css';
 
 const GramadoCanela = () => {
   return (
@@ -44,7 +44,7 @@ const GramadoCanela = () => {
       <h2>Onde se Hospedar (todas no Prime):</h2>
       <p><strong>Em Gramado:</strong> Giardino di Pietra, Hotel Interlaken, Sky Palace, Chocoland</p>
       <p><strong>Em Canela:</strong> Hotel Serra Nevada, Hotel Vila 505</p>
-      <p><strong>AirBnB:</strong> <a href="https://bit.ly/alugueltemporadagramado" target="_blank">Clique aqui</a> para 5% de desconto com o cupom <strong>EUNASCIPRAVIAJAR</strong>.</p>
+      <p><strong>AirBnB:</strong> <a href="https://bit.ly/alugueltemporadagramado" target="_blank" rel="noopener noreferrer">Clique aqui</a> para 5% de desconto com o cupom <strong>EUNASCIPRAVIAJAR</strong>.</p>
 
       <hr />
       <h2>Dia a Dia:</h2>
@@ -62,7 +62,7 @@ const GramadoCanela = () => {
       <h3>DIA 1 – Natureza e charme de Canela</h3>
       <ul>
         <li>• Lago Negro (gratuito) 🔥</li>
-        <li>• Mini Mundo R$ 132 🔥 <a href="https://loja.minimundo.com.br/?bookingagency=19987&ingToken=vendaParceiros" target="_blank">🔗</a></li>
+        <li>• Mini Mundo R$ 132 🔥 <a href="https://loja.minimundo.com.br/?bookingagency=19987&ingToken=vendaParceiros" target="_blank" rel="noopener noreferrer">🔗</a></li>
         <li>• Almoço: Quintanilha 💎🔥</li>
         <li>• Catedral de Pedra (gratuito) 🔥</li>
         <li>• Centro de Canela + Sinos da Catedral R$ 25 💎🔥</li>
@@ -71,9 +71,9 @@ const GramadoCanela = () => {
 
       <h3>DIA 2 – Aventura e Tecnologia</h3>
       <ul>
-        <li>• Bondinhos Aéreos R$ 100 <a href="https://parksnet.com.br/ingressos/?ingToken=bondinhoscanela&bookingAgency=626" target="_blank">🔗</a></li>
-        <li>• SkyGlass R$ 130 <a href="https://parksnet.com.br/ingressos/?ingToken=skyglass&bookingAgency=626" target="_blank">🔗</a></li>
-        <li>• Space Adventure R$ 115 <a href="https://parksnet.com.br/ingressos/?ingToken=spaceadventure&bookingAgency=626" target="_blank">🔗</a></li>
+        <li>• Bondinhos Aéreos R$ 100 <a href="https://parksnet.com.br/ingressos/?ingToken=bondinhoscanela&bookingAgency=626" target="_blank" rel="noopener noreferrer">🔗</a></li>
+        <li>• SkyGlass R$ 130 <a href="https://parksnet.com.br/ingressos/?ingToken=skyglass&bookingAgency=626" target="_blank" rel="noopener noreferrer">🔗</a></li>
+        <li>• Space Adventure R$ 115 <a href="https://parksnet.com.br/ingressos/?ingToken=spaceadventure&bookingAgency=626" target="_blank" rel="noopener noreferrer">🔗</a></li>
         <li>• NBA Park R$ 249 💎🔥📆</li>
         <li>• Gatzz (jantar + show) R$ 349,90 🔥🔥📆</li>
       </ul>
@@ -105,7 +105,7 @@ const GramadoCanela = () => {
 
       <h3>DIA 6 – Maria Fumaça + descanso</h3>
       <ul>
-        <li>• Maria Fumaça R$ 379,90 🔥 <a href="https://gramadoreceptivo.com.br/lp/eu-nasci-pra-viajar/servicos/passeios-tours/tour-uva-e-vinho-ingressos-almoco" target="_blank">🔗</a></li>
+        <li>• Maria Fumaça R$ 379,90 🔥 <a href="https://gramadoreceptivo.com.br/lp/eu-nasci-pra-viajar/servicos/passeios-tours/tour-uva-e-vinho-ingressos-almoco" target="_blank" rel="noopener noreferrer">🔗</a></li>
         <li>• Sugestão: usar app Prime para delivery com 30% off</li>
       </ul>
 
@@ -115,6 +115,10 @@ const GramadoCanela = () => {
         <li>• Acquamotion R$ 199 💎🔥📆</li>
         <li>• Jantar: Tchê Pierre Fondue 💎📆, Era do Fogo 💎</li>
       </ul>
+
+      <div style={{ marginTop: '2rem' }}>
+        <a href="/roteiros" className="btn-roteiro">← Voltar para Roteiros</a>
+      </div>
     </div>
   );
 };

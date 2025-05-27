@@ -6,6 +6,8 @@ import Tours from "./../pages/Tours";
 import SearchResultList from "./../pages/SearchResultList";
 import About from "./../pages/About";
 import Roteiros from "./../pages/Roteiros";
+import GramadoCanela from './../pages/roteiros/GramadoCanela';
+
 
 const Routers = () => {
   return (
@@ -16,6 +18,7 @@ const Routers = () => {
       <Route path="/tours" element={<Tours />} />
       <Route path="/about" element={<About />} />
       <Route path="/roteiros" element={<Roteiros />} />
+      <Route path="/roteiros/gramado-canela" element={<GramadoCanela />} />
       <Route path="/tours/search" element={<SearchResultList />} />
       {/* Add other routes as needed */}
     </Routes>

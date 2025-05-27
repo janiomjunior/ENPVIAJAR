@@ -26,8 +26,8 @@ const About = () => {
                 <div className="about-text">
                     <h2 className="orange-title">Sobre mim</h2>
                     <p>
-                        Oi! Eu sou a Gaby, criadora do blog <strong>Eu Nasci Pra Viajar</strong>. Aqui compartilho histórias,
-                        dicas sinceras e inspiração pra quem também tem alma viajante.
+                        E ai, sagalera! Eu sou a Gaby, criadora de conteúdo nas minhas redes sociais do <strong>Eu Nasci Pra Viajar</strong>. Aproveita minha pagina e acessa 
+                        meus cupons de descontos e roteiros de viagens.
                     </p>
                 </div>
             </section>

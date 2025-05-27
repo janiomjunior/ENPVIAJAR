@@ -1,0 +1,151 @@
+/* Roteiros.css */
+
+/* Listagem de roteiros */
+.roteiros-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  background-color: #fff;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+}
+
+.roteiros-title {
+  font-size: 2rem;
+  color: #F26C28;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.roteiros-intro {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.roteiro-card {
+  border: 1px solid #f2f2f2;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  background-color: #fafafa;
+  transition: transform 0.2s ease;
+}
+
+.roteiro-card:hover {
+  transform: scale(1.01);
+}
+
+.btn-roteiro {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #F26C28;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.btn-roteiro:hover {
+  background-color: #d85d20;
+}
+
+/* Página de roteiro detalhado */
+.roteiro-detalhado-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  background-color: #fff;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+}
+
+.roteiro-detalhado-container h1 {
+  color: #F26C28;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.roteiro-detalhado-container h2 {
+  color: #F26C28;
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+  font-size: 1.3rem;
+}
+
+.roteiro-detalhado-container h3 {
+  color: #555;
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.roteiro-detalhado-container ul {
+  padding-left: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.roteiro-detalhado-container li {
+  margin-bottom: 0.5rem;
+}
+
+.roteiro-detalhado-container a {
+  color: #F26C28;
+  text-decoration: underline;
+}
+
+.roteiro-detalhado-container a:hover {
+  text-decoration: none;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #F26C28;
+  margin: 2rem 0;
+}
+
+/* Destaque visual para emojis */
+.roteiro-detalhado-container li:has(💎) {
+  color: #d17e00;
+  font-weight: 500;
+}
+
+.roteiro-detalhado-container li:has(🔥) {
+  color: #e63946;
+  font-weight: 500;
+}
+
+.roteiro-detalhado-container li:has(📆) {
+  color: #1d3557;
+  font-weight: 500;
+}
+
+.roteiro-detalhado-container li:has(🔗) {
+  color: #457b9d;
+  font-weight: 500;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .roteiros-container,
+  .roteiro-detalhado-container {
+    padding: 1.5rem 1rem;
+  }
+
+  .roteiros-title {
+    font-size: 1.6rem;
+  }
+
+  .roteiro-detalhado-container h1 {
+    font-size: 1.6rem;
+  }
+
+  .roteiro-detalhado-container h2 {
+    font-size: 1.1rem;
+  }
+
+  .roteiro-detalhado-container h3 {
+    font-size: 1rem;
+  }
+}

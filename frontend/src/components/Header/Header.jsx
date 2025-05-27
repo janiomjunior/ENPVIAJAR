@@ -22,6 +22,11 @@ const nav__links = [
     path: "/tours",
     display: "Descontos",
   },
+
+  {
+    path: "/roteiros",
+    display: "Roteiros",
+  },
 ];
 
 const Header = () => {
